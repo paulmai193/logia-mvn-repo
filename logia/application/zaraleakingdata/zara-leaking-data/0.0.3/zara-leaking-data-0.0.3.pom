@@ -4,7 +4,7 @@
 	<groupId>logia.application.zaraleakingdata</groupId>
 	<artifactId>zara-leaking-data</artifactId>
 	<version>0.0.3</version>
-	<!-- <url>https://github.com/paulmai193/ZaraLeakData</url> -->
+
 	<properties>
 		<github.global.server>github</github.global.server>
 	</properties>
@@ -102,8 +102,8 @@
 					<merge>true</merge>
 					<includes>
 						<include>**/*</include>
-					</includes>					
-					
+					</includes>
+
 					<!-- github repo name -->
 					<repositoryName>logia-mvn-repo</repositoryName>
 					<!-- github username -->
@@ -122,9 +122,19 @@
 			</plugin>
 
 			<!-- Source plugin -->
-			<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-source-plugin</artifactId> 
-				<version>2.3</version> <executions> <execution> <id>attach-sources</id> <goals> 
-				<goal>jar</goal> </goals> </execution> </executions> </plugin> -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>2.3</version>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
 		</plugins>
 	</build>
 
