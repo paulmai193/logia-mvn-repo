@@ -1,0 +1,1 @@
+# logia-mvn-repo
