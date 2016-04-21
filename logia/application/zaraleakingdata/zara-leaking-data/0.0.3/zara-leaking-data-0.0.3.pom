@@ -89,7 +89,7 @@
 				<version>0.11</version>
 				<configuration>
 					<!-- git commit message -->
-					<message>Maven artifacts for ${project.version}</message>
+					<message>ZaraLeakingData artifacts for ${project.version}</message>
 					<!-- disable webpage processing -->
 					<noJekyll>true</noJekyll>
 					<!-- matches distribution management repository url above -->
