@@ -20,6 +20,17 @@
 		</repository>
 	</distributionManagement>
 	
+	<repositories>
+		<repository>
+			<id>logia-mvn-repo</id>
+			<url>https://raw.github.com/paulmai193/logia-mvn-repo/</url>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+		</repository>
+	</repositories>
+	
 	<build>
 		<finalName>MyHibernate</finalName>
 		<defaultGoal>clean deploy</defaultGoal>
